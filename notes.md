@@ -94,3 +94,30 @@
     const [medium, small, giant] = dogs`
 - `const dogsName = 'Sir Woody BarksALot'
     const [title, firstName, lastName] = 'Sir Woody BarksALot'.split(' ')`
+
+#### Template Literals
+
+- Use variable inside a string
+- Use instead of concatenate
+
+#### Default Parameters
+
+- JavaScript did not have the ability to give default values to parameters
+- Pass in a default value to an argument so that undefined will not be returned
+
+#### Rest Parameters
+
+- Ability to pass in an arbitrary number of arguments
+- Allows you to collect the rest of your remaining parameters that you are passing into your function into an array
+
+#### Spread Operator
+
+- allows you to pass elements of an array into a function as an argument
+
+#### Classes
+
+- Object Oriented Programming
+- Make code more secure and encapsulated
+- Use class keyword
+- Has a constructor function to add properties
+- Type of a function, just uses class keyword
