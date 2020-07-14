@@ -71,7 +71,7 @@
 
 ##### Nested objects
 
-`const doggie = {
+- `const doggie = {
  first: 'Buzz',
  breed: 'Great Pyrenees',
  fur_color: 'black and white',
@@ -86,7 +86,7 @@
    }
  }
 };`
-`const { ham, hot_dog } = doggie.favorite_foods.meats;`
+- `const { ham, hot_dog } = doggie.favorite_foods.meats;`
 
 #### Destructuring Arrays:
 
