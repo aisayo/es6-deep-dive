@@ -121,3 +121,26 @@
 - Use class keyword
 - Has a constructor function to add properties
 - Type of a function, just uses class keyword
+
+#### Object.assign()
+
+- Non destructive
+- Allows us to combine properties from multiple objects into a single object
+- First argument is the object we are adding all the properties to
+- The next arguments are any objects whose properties we want to add
+- Passing in an empty object creates an entirely new object
+- Get better performance from merging objects nondestructively
+- <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign>
+- <https://www.freecodecamp.org/news/javascript-standard-objects-assign-values-hasownproperty-and-getownpropertynames-methods-explained>
+
+#### Promise
+
+- Representation of resolution or rejection asynchronous actions, returning its resulting value
+- It is an object
+- Will produce a single value in the near future
+- ES6 is when Promise global came about
+- ES6 promise constructor takes a function. That function takes two parameters, `resolve()`, and `reject()`
+- Has 3 states: `pending`, `fulfilled`, `rejected`
+- `Promise.prototype.then()` <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then>
+- `Promise.prototype.catch()` <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/catch>
+- <https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-promise-27fc71e77261>
