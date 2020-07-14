@@ -41,3 +41,56 @@
 - Cannot be redeclared
 - Allows for block scoping
 - Use let when you know you’re going to re-assign
+- <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let>
+
+## Dont use var in production code!!
+
+### Arrow Functions
+
+- Makes code more readable
+- If one line, can omit return keyword
+- Can use with map, filter, reduce
+- Does not have `this`
+- Not useful for defining object methods
+- Must be defined before they are used, do not get hoisted
+
+### Array and Object Destructuring
+
+#### Destructuring Objects:
+
+- Variables need to match property name
+- Can rename variable with (:)
+- `const doggie = {
+    first: 'Buzz',
+    breed: 'Great Pyrenees',
+    fur_color: 'black and white',
+    activity_level: 'sloth-like',
+    favorite_food: 'hot_dogs'
+    };`
+- `const { first, breed } = doggie;`
+
+Nested objects
+const doggie = {
+ first: 'Buzz',
+ breed: 'Great Pyrenees',
+ fur_color: 'black and white',
+ activity_level: 'sloth-like',
+ favorite_foods: {
+   meats:{
+     ham: 'smoked',
+     hot_dog: 'oscar_meyer',
+   },
+   cheeses:{
+     american: 'kraft'
+   }
+ }
+};
+ 
+const { ham, hot_dog } = doggie.favorite_foods.meats;
+
+Arrays 
+const dogs = ['Great Pyrenees', 'Pug', 'Bull Mastiff']
+const [medium, small, giant] = dogs
+const dogsName = 'Sir Woody BarksALot'
+const [title, firstName, lastName] = 'Sir Woody BarksALot'.split(' ')								 
+ 
