@@ -69,8 +69,9 @@
     };`
 - `const { first, breed } = doggie;`
 
-Nested objects
-const doggie = {
+##### Nested objects
+
+`const doggie = {
  first: 'Buzz',
  breed: 'Great Pyrenees',
  fur_color: 'black and white',
@@ -84,13 +85,12 @@ const doggie = {
      american: 'kraft'
    }
  }
-};
- 
-const { ham, hot_dog } = doggie.favorite_foods.meats;
+};`
+`const { ham, hot_dog } = doggie.favorite_foods.meats;`
 
-Arrays 
-const dogs = ['Great Pyrenees', 'Pug', 'Bull Mastiff']
-const [medium, small, giant] = dogs
-const dogsName = 'Sir Woody BarksALot'
-const [title, firstName, lastName] = 'Sir Woody BarksALot'.split(' ')								 
- 
+#### Destructuring Arrays:
+
+-`const dogs = ['Great Pyrenees', 'Pug', 'Bull Mastiff']
+    const [medium, small, giant] = dogs`
+-`const dogsName = 'Sir Woody BarksALot'
+    const [title, firstName, lastName] = 'Sir Woody BarksALot'.split(' ')`
